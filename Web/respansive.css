@@ -1,0 +1,36 @@
+
+@media screen and (max-width: 900px){
+   .item-li{
+    display: none;
+   }
+   .menu{
+    display: block;
+   }
+  .Item-image{
+    display: none;
+  }
+  .carrocel{
+    width: 100%;
+  }
+  .item-1{
+    display: block;
+  }
+  .item-text{
+    width: 100%;
+  }
+
+  .item-text h1{
+    font-size: 1.3em;
+  }
+  .marginTop{
+    margin-top: 200px;
+}
+.item-align{
+    display: block;
+}
+.item-video {
+    width: 100%;
+  
+}
+
+}
