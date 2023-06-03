@@ -7,6 +7,9 @@
     <!--CSS-->
     <link rel="stylesheet" href="asserts/css/style.css"/>
     <link rel="stylesheet" href="asserts/css/respansive.css"/>
+    <!--JS-->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
     <title>Home - Clone ICON </title>
   </head>
    <body>
@@ -69,7 +72,9 @@
                 <div class="i-text">
                   <div class="í-text-img">
                       <h1>O que é o ICON?</h1>
-                      <img src="asserts/images/libras.png"/>
+                      <a href="#">
+                        <img src="asserts/images/libras.png"/>
+                      </a>
                   </div>
                     <div class="text">
                        <p>ICOM é a principal plataforma de tradução simultânea
@@ -89,7 +94,9 @@
                  <div class="i-text" >
                   <div class="í-text-img">
                     <h1>Como funciona?</h1>
+                    <a href="#">
                       <img src="asserts/images/libras.png"/>
+                    </a>
                     </div>
                     <div class="text width50" >
                        <p>O ICOM é uma ferramenta on-line de uso simples e intuitivo.
@@ -199,16 +206,18 @@
                   </div>
                 </div>
                 <div class="col-img-i-3">
-                  <div class="i-text-img">
+                  <div class="i-text-img h1">
                     <h1>Surdo</h1>
                   </div>
                 </div> 
              </div>
              <div class="row-i-6">
-                <div class="circle-4">
+                <div class="circle-4" >
                   <div class="i-text-img">
                     <div class="i-img">
-                       <img src="asserts/images/libras.png"/>
+                      <a href="#">
+                        <img src="asserts/images/libras.png"/>
+                      </a>
                     </div>
                     <h3>A quem se destina?</h3>
                     <p>A empresas privadas e públicas,
@@ -222,10 +231,12 @@
                      de brasileiros</p>
                   </div>
                 </div>
-                <div class="circle-5">
+                <div class="circle-5 ">
                   <div class="i-text-img">
                     <div class="i-img">
-                       <img src="asserts/images/libras.png"/>
+                      <a href="#">
+                        <img src="asserts/images/libras.png"/>
+                      </a>
                     </div>
                     <h3>Como acessar?</h3>
                     <p>O ICOM está disponível via QR 
@@ -244,7 +255,6 @@
                       <a href="#">
                         <button type="button">QUERO USAR</button>
                       </a>
-                    
                     </div>
                   </div>
                 </div>
@@ -261,12 +271,13 @@
                         <form method="post">
                             <div class="col-item-input">
                                 <input type="text" name="name" placeholder="Nome*">
-                                <input type="text" name="name" placeholder="Telefone*">
+                                <input class="resposiveTop" type="text" name="name" placeholder="Telefone*">
                             </div>
-                             <div class="col-item-input">
+                             <div class="col-item-input respansive">
                                  <input type="email" name="email" placeholder="Email*">
                              </div>
-                             <div class="col-item-input">
+                             <div class="col-item-input resposive
+                             ">
                                  <select type="text" name="Item" >
                                      <option> O que você procura?</option>
                                  </select>
@@ -291,7 +302,7 @@
                 <div class="i-video-2">
                   <div class="video-align">
                     <video  controls>
-                      <source src="videos/2023-06-02 12-39-00.mkv" />
+                      <source src="videos/2023-06-02 12-39-00.mkv"/>
                     </video>
                     <h3>Diego de Lima</h3>
                     <p>Curitiba/PR</p>
@@ -316,7 +327,7 @@
               <div class="col-i-blog">
                    <div class="group-1">
                       <div class="circle-7">
-                        <img src="asserts/images/image-icom.jpg" alt=""/>
+                        <img src="asserts/images/image-icom.jpg" alt="image-icom.jpg"/>
                       </div>
                       <div class="text-i-4">
                          <h3>O que é Lei Brasileira de Inclusão? 
@@ -328,7 +339,7 @@
                    </div>
                    <div class="group-1">
                     <div class="circle-7">
-                      <img src="asserts/images/image-icom3.jpg" alt=""/>
+                      <img src="asserts/images/image-icom3.jpg" alt="image-icom3.jpg"/>
                     </div>
                     <div class="text-i-4">
                        <h3>Como a tecnologia pode ajudar na 
@@ -351,6 +362,49 @@
                   </div>
                </div>
               </div>
+              <div class="col-i-pagination">
+                  <div class="pagination-i">
+                  <p>Página 1 de 8</p>
+                   </a>
+                   <a href="#">
+                      <div class="circle-pagination active-pagination">
+                         <h3>1</h3>
+                      </div>
+                    <a href="#">
+                      <div class="circle-pagination">
+                         <h3>2</h3>
+                      </div>
+                     </a>
+                    <a href="#">
+                      <div class="circle-pagination">
+                         <h3>3</h3>
+                      </div>
+                     </a>
+                    <a href="#">
+                      <div class="circle-pagination resposiveDisplay" >
+                         <h3>4</h3>
+                      </div>
+                     </a>
+                    <a href="#">
+                      <div class="circle-pagination resposiveDisplay" >
+                         <h3>5</h3>
+                      </div>
+                     </a>
+                     <a href="#">
+                      <div class="circle-pagination">
+                         <h3 class="fontSize12">...</h3>
+                      </div>
+                     </a>
+                    <a href="#">
+                      <div class="circle-pagination">
+                         <h3 class="fontSize12">></h3>
+                      </div>
+                     </a>
+                    <a href="#">
+                      <div class="circle-pagination-end"><h3>Útima<span>>></span></h3></div>
+                     </a>
+                  </div>
+              </div>
               <div class="col-i-blog">
                    <div class="col-i-end">
                     <div class="grounp-2">
@@ -363,7 +417,7 @@
                        <p class="align-p">São Paulo/SP</p>
                       </div>
                     </div>
-                    <div class="grounp-2">
+                    <div class="grounp-2 top">
                       <div>
                          <div class="i-img-4">
                           <img src="asserts/images/icons8-smartphone-50.png" alt="cell.png"/>
@@ -373,7 +427,7 @@
                          <p></p>
                       </div>
                     </div>
-                    <div class="grounp-2">
+                    <div class="grounp-2 top" >
                       <div>
                         <div class="i-img-4">
                           <img src="asserts/images/icons8-mensagem-48.png" alt="email.png"/>
@@ -384,6 +438,29 @@
                         </div>
                        </div>
                    </div>
+                </div>
+                <div class="col-i-social">
+                    <div class="i-social">
+                      <div class="circle-social">
+                        <a href="https://www.facebook.com/icomlibras/"><ion-icon name="logo-facebook"></ion-icon> </a>
+                      </div> 
+                      <div class="circle-social">
+                          <a href="https://twitter.com/IcomLibras"><ion-icon name="logo-twitter"></ion-icon></a>
+                      </div>
+                      <div class="circle-social">
+                       <a href="https://www.linkedin.com/company/26192230/admin/"><ion-icon name="logo-linkedin"></ion-icon></a>
+                      </div>
+                      <div class="circle-social">
+                       <a href="https://www.instagram.com/icomlibras/">
+                        <ion-icon name="logo-instagram"></ion-icon>
+                       </a>
+                      </div>
+                      <div class="circle-social">
+                       <a href="https://www.youtube.com/channel/UCZEX82ZY3o7NLHdiSLt-DkA">
+                        <ion-icon name="logo-youtube"></ion-icon>
+                       </a>
+                      </div>   
+                    </div>
                 </div>
              </div>
            </div>
