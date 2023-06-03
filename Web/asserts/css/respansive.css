@@ -1,0 +1,74 @@
+
+@media screen and (max-width: 900px){
+
+    .navbar{
+      display: none;
+    }
+    .header{
+      width: 80%;
+    }
+
+    .option{
+      display: block;
+    }
+
+    .i-col-circle{
+      display: none;
+    }
+    .carousel{
+      width: 100%;
+    }
+
+    .row-i{
+      margin-top: -60%;
+    }
+
+    .i-col{
+      width: 100%;
+      display: block;
+    }
+    .i-text{
+    margin-top: 20%;
+    }
+    .i-text H1{
+      font-size: 1.8em;
+    }
+
+    .i-col{
+      margin-top: 100%;
+    }
+
+    .i-align{
+       display: block;
+    }
+
+    .row-i-2{
+      margin-top: 90%;
+      margin-left:-30px ;
+    }
+    
+    .row{
+       display: block;
+    }
+
+    .row-i-3{
+      margin-top: 40%;
+    }
+
+    .row-i-3 .b-col-1{
+     left: 30px;
+     }
+
+     .row-i-3 .b-col-2{
+      left: 55%;
+     }
+
+    .b-col-3{
+       display: none;
+    }
+    
+
+
+ 
+}
+

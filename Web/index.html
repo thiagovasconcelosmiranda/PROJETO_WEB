@@ -1,72 +1,76 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--CSS-->
-    <link rel="stylesheet" href="style.css"/>
-    <link rel="stylesheet" href="respansive.css"/>
-    <title>Home </title>
-</head>
-<body>
-    <ul>
+    <link rel="stylesheet" href="asserts/css/style.css"/>
+    <link rel="stylesheet" href="asserts/css/respansive.css"/>
+    <title>Home - Clone ICON </title>
+  </head>
+   <body>
+      <ul>
         <div class="img-logo">
-            <img src="images/logo.png" alt="logo.jpg"/>
+            <img src="asserts/images/logo-tipo.png" alt="logo.jpg"/>
         </div>
-        <div class="item-li">
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Sobre</a></li>
+        <div class="navbar">
+          <li><a class="active" href="#">Home</a></li>
+          <li><a href="#">Sobre o ICON</a></li>
           <li><a href="#">Blog</a></li>
           <li><a href="#">FAQ</a></li>
           <li><a href="#">Contato</a></li>
           <li><a href="#">Privacidade</a></li>
     </div>
-    <div class="menu">
-        <img src="images/icons8-cardápio-50.png">
-    </div>
-      
+    <div class="option">
+        <img src="asserts/images/icons8-cardápio-50.png">
+    </div> 
     </ul>
-    <div class="container">
-        <div class="carrocel">
-           <div class="carrocel-item">
-                <h1>INCON Digital</h1>
-                <div class="carrocel-item-text">
+    <header class="header">
+        <div class="carousel">
+           <div class="carousel-i">
+                <h1>ICON Digital</h1>
+                <div class="carrocel-i-text">
                    <p>Serviço de atendimento automatico e interativo ao público em
                      Línguas de Sinais torne seu chatbot acessivelpara surdos com libras </p>
                 </div>
-                <div class="item-button">
-                     <button type="button" >Conheça mais</button>
+                <div class="i-button">
+                  <a href="#">
+                    <button type="button" >Conheça mais</button>
+                  </a>
                 </div>
            </div>
         </div>
-       <div class="Item-image">
-        <div class="corpo-image1">
-            <div class="circular1">
-                <img src="images/image2.jpg"/>
+       <div class="i-col-circle">
+        <div class="i-img-1">
+            <div class="circle-1">
+                <img src="asserts/images/image2.jpg"/>
             </div>
         </div>
-        <div class="corpo-image2">
-            <div class="circular2">
-                <img src="images/image3.jpg"/>
+        <div class="i-img-2">
+            <div class="circle-2">
+                <img src="asserts/images/image-icom.jpg" alt="image-icom.jpg"/>
             </div>
         </div>
-        <div class="corpo-image3">
-            <div class="circular3"></div>
+        <div class="i-img-3">
+            <div class="circle-3"></div>
         </div>
        </div>
-    </div>
-    <div class="corpo-item">
+    </header>
+     <main class="main-i-body">
         <!--corpodo conteudo-->
-        <div class="item">
-            <div class="item-1">
-               <div class="item-circular">
-                <div class="img-circular">
-                   <img src="images/image.jpg" alt="image.png"/>
+        <div class="row-i">
+            <div class="i-col">
+               <div class="i-circle">
+                <div class="circle-img">
+                   <img src="asserts/images/app.jpg" alt="image.png"/>
                   </div>
                 </div>
-                <div class="item-text">
-                    <h1>O que é o ICON?</h1>
+                <div class="i-text">
+                  <div class="í-text-img">
+                      <h1>O que é o ICON?</h1>
+                      <img src="asserts/images/libras.png"/>
+                  </div>
                     <div class="text">
                        <p>ICOM é a principal plataforma de tradução simultânea
                          de Libras do mercado que permite às empresas atender
@@ -79,11 +83,14 @@
                     </div>
                 </div>
             </div>
-            <div class="item-1 ">
-              <div class="item-align marginTop">
-                <div class="text-align">
-                 <div class="item-text" >
+            <div class="i-col">
+              <div class="i-align marginTop">
+                <div class="text-col">
+                 <div class="i-text" >
+                  <div class="í-text-img">
                     <h1>Como funciona?</h1>
+                      <img src="asserts/images/libras.png"/>
+                    </div>
                     <div class="text width50" >
                        <p>O ICOM é uma ferramenta on-line de uso simples e intuitivo.
                          Disponível 24 horas por dia, 365 dias do ano, pode ser acessado via aplicativo, 
@@ -91,102 +98,341 @@
                     </div>
                 </div>
                </div>
-                <div class="item-video">
-                    <video autoplay controls>
+                <div class="i-video">
+                    <video controls>
                         <source src="videos/videoplayback.mp4" type="video/mp4"/>
                     </video>
                 </div>
               </div>
             </div>
-            <div class="item-2">
-               <div class="row">
-                   <div class="col">
-                    <h1>+80</h1>
-                    <h3>Clientes</h3>
+            <div class="row-i-2">
+                  <div class="row">
+                    <div class="respansive">
+                      <div class="col">
+                        <h1>+80</h1>
+                        <h3>Clientes</h3>
+                      </div>
+                    <div class="col">
+                      <h1>+60</h1>
+                      <h3>Interpretes</h3>
+                    </div>
                    </div>
-                   <div class="col">
-                    <h1>+60</h1>
-                    <h3>Interpretes</h3>
-                   </div>
-                   <div class="col">
-                    <h1>+40k</h1>
-                    <h3>Atendimentos</h3>
-                   </div>
-                   <div class="col">
-                    <h1>+70K</h1>
-                    <h3>Usuários</h3>
-                   </div>
+                   <div class="respansive">
+                    <div class="col">
+                     <h1>+40k</h1>
+                     <h3>Atendimentos</h3>
+                    </div>
+                    <div class="col">
+                     <h1>+70K</h1>
+                     <h3>Usuários</h3>
+                    </div>
+                </div>
+              </div>
+             </div>
+           </div>
+           <div class="row-i-3">
+              <div class="b-col-1">
+                <div class="b-col-1-img">
+                  <a href="#">
+                    <img src="asserts/images/libras.png"/>
+                  </a>
+                   
+                </div>
+                <div class="b-col-1-text">
+                    <h1>1</h1>
+                    <p>ICOM é a principal plataforma de
+                      tradução simultânea de Libras do mercado 
+                      que permite às empresas atender o cliente 
+                      surdo no seu próprio idioma. Trata-se de uma 
+                      ferramenta on-line, disponível 24 horas por dia,
+                      que proporciona comunicação em tempo real entre ouvintes e surdos</p>
+                </div>
+                <div class="b-col-circle-1">
+                   <img src="asserts/images/kisspng-computer-monitor-accessory-white-multimedia-vector-laptop-computer-and-cell-phone-5a962488b5bf17.8101155715197891927444.png"/>
+                </div>
+              </div>
+              <div class="b-col-2">
+                <div class="b-col-1-text">
+                    <h1>2</h1>
+                    <p>
+                        O ICOM pode ser acessado por QR code ou weblink
+                    </p>
+                </div>
+                <div class="b-col-circle-2">
+                  <img src="asserts/images/2-ouvintes.png" alt="ouvintes.png"/>
+                </div>
+              </div>
+              <div class="b-col-3">
+                <div class="b-col-1-text">
+                    <h1>3</h1>
+                    <p>
+                        O atendimento é intermediado por
+                         um dos diversos intérpretes de 
+                         Libras disponíveis on-line    
+                    </p>
+                </div>
+            </div>
+           </div>
+           <div class="row-i-6">
+             <div class="dicaTexto-1">
+              <div class="col-i-1">
+                <img src="asserts/images/Icone Libras.png" alt="call-center.png"/>
+                <h3>Libras</h3>
+              </div>
+             </div>
+             <div class="dicaTexto-2">
+              <div class="col-i-1">
+                <img src="asserts/images/icons8-fone-de-ouvido-50.png" alt="call-center.png"/>
+                <h3>Atendimento</h3>
+              </div>
+             </div>
+             <div class="col-img-i">
+               <div>
+                <h1> Central de Intérpretes</h1>
+                <img src="asserts/images/central-2.png" alt="call-center.png"/>
+               </div> 
+             </div>
+              <div class="col-img-i-2">
+                  <div class="i-text-img">
+                    <h1>Ouvidoria</h1>
+                     <p>(empresas e pessoas físicas)</p>
+                  </div>
+                </div>
+                <div class="col-img-i-3">
+                  <div class="i-text-img">
+                    <h1>Surdo</h1>
+                  </div>
+                </div> 
+             </div>
+             <div class="row-i-6">
+                <div class="circle-4">
+                  <div class="i-text-img">
+                    <div class="i-img">
+                       <img src="asserts/images/libras.png"/>
+                    </div>
+                    <h3>A quem se destina?</h3>
+                    <p>A empresas privadas e públicas,
+                     concessionárias, planos de saúde,
+                     bancos, comércio físico e on-line,
+                     restaurantes, enfim, todas as organizações
+                     que sonham com um mundo sem barreira e desejam
+                     atender a pessoa surda no seu próprio idioma, 
+                     contribuindo para a construção da cidadania, 
+                     do respeito, da autonomia e da inclusão de milhões
+                     de brasileiros</p>
+                  </div>
+                </div>
+                <div class="circle-5">
+                  <div class="i-text-img">
+                    <div class="i-img">
+                       <img src="asserts/images/libras.png"/>
+                    </div>
+                    <h3>Como acessar?</h3>
+                    <p>O ICOM está disponível via QR 
+                      code ou link e pode ser acessado 
+                      de um celular, tablet ou computador
+                       com acesso à internet e vídeo. O acesso 
+                       ao ICOM ocorre por videochamada</p>
+                  </div>
                </div>
-            </div>
-            <div class="item-3">
-                <div class="corpo1">
-                    <div class="corpo-text">
-                        <h1>1</h1>
-                        <div class="text-align">
-                            <p>ICOM é a principal plataforma de
-                                tradução simultânea de Libras do
-                                mercado que permite às empresas atender 
-                                o cliente surdo no seu próprio idioma. Trata-se 
-                                de uma ferramenta on-line, disponível 24 horas por dia,
-                                que proporciona comunicação em tempo real entre ouvintes e surdos</p>
-                         </div>
-                       </div>
-                       <div class="item-circulo">
-                       </div>
-                </div>
-                <div class="corpo2">
-                    <div class="corpo-text">
-                        <h1>2</h1>
-                        <div class="text-align" style="width: 80%;">
-                            <p>O ICOM pode ser acessado por QR code ou weblinks</p>
-                         </div>
-                       </div>
-                    <div class="item-circulo2">
-                        
+               <div class="circle-6">
+                <div class="i-text-button">
+                  <h3>Benefícios</h3>
+                  <p>Uma comunicação direta e
+                    eficaz com o cidadão surdo</p>
+                    <div class="i-button-2">
+                      <a href="#">
+                        <button type="button">QUERO USAR</button>
+                      </a>
+                    
                     </div>
+                  </div>
                 </div>
-                <div class="corpo3">
-                    <div class="corpo-text">
-                        <h1>3</h1>
-                        <div class="text-align" style="width: 80%;">
-                            <p>O atendimento é intermediado por um dos diversos 
-                                intérpretes de Libras disponíveis on-line</p>
-                         </div>
-                       </div>
-                    <div class="item-circulo3"></div>
+               </div>
+             </div>
+             <div class="row-i-5">
+               <div class="row-corpo">
+                  <div class="item-col">
+                    <h1>comece a utilizar o ICOM</h1>
+                    <p>Cadastre-se abaixo e solicite uma demonstração. Entraremos em contato em breve.</p>
+                    <p>Ao preencher os campos abaixo, você automaticamente concorda com nossa <a href="#">
+                     política de privacidade</a> de Dados.</p>
+                    <div class="align-form">
+                        <form method="post">
+                            <div class="col-item-input">
+                                <input type="text" name="name" placeholder="Nome*">
+                                <input type="text" name="name" placeholder="Telefone*">
+                            </div>
+                             <div class="col-item-input">
+                                 <input type="email" name="email" placeholder="Email*">
+                             </div>
+                             <div class="col-item-input">
+                                 <select type="text" name="Item" >
+                                     <option> O que você procura?</option>
+                                 </select>
+                             </div>
+                             <div class="col-item-input">
+                                <select type="text" name="Item">
+                                    <option>Qual perfil você trabalha?</option>
+                                </select>
+                                    </div>
+                             <div class="col-item-button">
+                                <button type="submit">Solicitar Demostração</button>
+                             </div>
+                         </form>
+                    </div>
+                  </div>
+               </div>
+           </div>
+           <div class="row-i-7"> 
+             <div class="form-video-i">
+              <div class="col-video-i">
+                <h1>o que dizem os Usuários</h1>
+                <div class="i-video-2">
+                  <div class="video-align">
+                    <video  controls>
+                      <source src="videos/2023-06-02 12-39-00.mkv" />
+                    </video>
+                    <h3>Diego de Lima</h3>
+                    <p>Curitiba/PR</p>
+                  </div>
+                  <div class="video-align">
+                    <video controls>
+                      <source src="videos/2023-06-02 12-40-42.mkv"/>
+                    </video>
+                    <h3>André Henrique Conrado</h3>
+                    <p>Fortaleza/CE</p>
+                  </div>
                 </div>
               </div>
-              <div class="item-3"></div>
-              <div class="row-form">
-                <div class="item-col">
-                   <h1>comece a utilizar o ICOM</h1>
-                   <p>Cadastre-se abaixo e solicite uma demonstração. Entraremos em contato em breve.</p>
-                   <p>Ao preencher os campos abaixo, você automaticamente concorda com nossa <a href="#">política de privacidade</a> de Dados.</p>
-                   <form  method="post">
-                    <div class="col-item-input">
-                        <input type="text" name="name" placeholder="Nome*">
-                        <input type="text" name="name" placeholder="Telefone*">
+             </div>
+           </div>
+           <div class="row-i-8">
+            <div class="col-i">
+              <div class="text-i-3">
+                <h1>nosso blog</h1>
+                <p>Acompanhe todas as novidades do ICOM </p>
+              </div>
+              <div class="col-i-blog">
+                   <div class="group-1">
+                      <div class="circle-7">
+                        <img src="asserts/images/image-icom.jpg" alt=""/>
+                      </div>
+                      <div class="text-i-4">
+                         <h3>O que é Lei Brasileira de Inclusão? 
+                          Saiba como e o que sua empresa precisa fazer</h3>
+                          <p class="p-blue">19/12/22</p>
+                          <p class="p-black">Saiba o que é a Lei Brasileira de Inclusão
+                             e o que sua empresa precisa fazer</p>
+                      </div>
+                   </div>
+                   <div class="group-1">
+                    <div class="circle-7">
+                      <img src="asserts/images/image-icom3.jpg" alt=""/>
                     </div>
-                    <div class="col-item-input">
-                        <input type="email" name="email" placeholder="Email*">
+                    <div class="text-i-4">
+                       <h3>Como a tecnologia pode ajudar na 
+                        diversidade e inclusão das empresas</h3>
+                        <p class="p-blue">19/09/22</p>
+                        <p class="p-black">Embora muitos acabem utilizando
+                           como sinônimos, equidade e igualdade não são sinônimos.
+                            Confira mais sobre neste artigo!</p>
                     </div>
-                    <div class="col-item-input">
-                        <select type="text" name="Item" >
-                             <option> O que você procura?</option>
-                        </select>
+                 </div>
+                 <div class="group-1">
+                  <div class="circle-7">
+                    <img src="asserts/images/image-icom2.jpg" alt=""/>
+                  </div>
+                  <div class="text-i-4">
+                     <h3>O que é Lei Brasileira de Inclusão? 
+                      Saiba como e o que sua empresa precisa fazer</h3>
+                      <p class="p-blue">19/12/2022</p>
+                      <p class="p-black">Saiba o que é a Lei Brasileira de Inclusão e o que sua empresa precisa fazer</p>
+                  </div>
+               </div>
+              </div>
+              <div class="col-i-blog">
+                   <div class="col-i-end">
+                    <div class="grounp-2">
+                     <div>
+                      <div class="i-img-4">
+                        <img src="asserts/images/icons8-localização-50.png" alt="localization"/>
+                      </div>
+                       <h3>Nossa localização</h3>
+                       <p>Rua Serra de Botucatu, 1197  Tatuapé - 03317-001</p>
+                       <p class="align-p">São Paulo/SP</p>
+                      </div>
                     </div>
-                    <div class="col-item-input">
-                        <select type="text" name="Item">
-                            <option>Qual persil você trabalha?</option>
-                        </select>
+                    <div class="grounp-2">
+                      <div>
+                         <div class="i-img-4">
+                          <img src="asserts/images/icons8-smartphone-50.png" alt="cell.png"/>
+                         </div>
+                         <h3>Contato</h3>
+                         <p>(11) 2360-8900</p>
+                         <p></p>
+                      </div>
                     </div>
-                    <div class="col-item-button">
-                       <button type="submit">Solicitar Demostração</button>
-                    </div>
-                   </form>
+                    <div class="grounp-2">
+                      <div>
+                        <div class="i-img-4">
+                          <img src="asserts/images/icons8-mensagem-48.png" alt="email.png"/>
+                        </div>
+                         <h3>Fale com a gente</h3>
+                         <p>contato-icom@ame-sp.org.br</p>
+                         <p class="align-p">Fale com  o DPO - privacidade@ame-sp.org.br</p>
+                        </div>
+                       </div>
+                   </div>
+                </div>
+             </div>
+           </div>
+           <footer>
+             <div class="row-i-10" >
+              <div class="col-map-i">
+                <div class="circle-1-map">
                 </div>
               </div>
-            </div>
-        </div>
-  </body>
+              <div class="col-contact-i">
+                <form method="post" action="">
+                  <h1>entre em contato</h1>
+                  <div class="group-input">
+                        <input type="text" name="name" placeholder="Nome"/>
+                  </div>
+                  <div class="group-input">
+                    <input type="email" name="email" placeholder="Email"/>
+                  </div>
+                  <div class="group-input">
+                    <input type="text" name="fone" placeholder="Telefone"/>
+                  </div>
+                  <div class="group-input">
+                    <input type="text" name="fone" placeholder="Telefone"/>
+                  </div>
+                  <div class="group-input">
+                    <select type="text" name="Item" >
+                      <option> O que você procura?</option>
+                     </select>
+                  </div>
+                  <div class="group-input">
+                    <select type="text" name="Item" >
+                      <option> Qual o perfil da empresa que você trabalha?</option>
+                     </select>
+                  </div>
+                  <div class="group-input">
+                    <select type="text" name="Item" >
+                      <option> você é surdo?</option>
+                      <option>Sim</option>
+                      <option>Não</option>
+                  </select>
+                  </div>
+                  <div class="grouup-button">
+                    <button type="submit">Enviar</button>
+                  </div>
+                </form>
+              </div>
+             </div>
+           </footer>
+          </div>
+        </main>
+   </body>
 </html>
