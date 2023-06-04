@@ -12,7 +12,7 @@
       display: block;
     }
     
-
+    
     .i-col-circle{
       display: none;
     }
@@ -54,6 +54,10 @@
       left: 80%;
     }
 
+    .col-img-i-3{
+      margin-top: 30px;
+    }
+
     .i-video{
       margin-left: 6%;
       width: 100%;
@@ -92,13 +96,16 @@
     }
 
     .row-i-3 .b-col-1{
-      width: 40%;
-      height: auto;
+      width: 28%;
+      height: 80vmax;
      left: 30px;
+
      }
 
      .b-col-circle-1{
-      height: 200px;
+      width: 100%;
+      height: 50max;
+     
      }
 
      .b-col-1-text{
@@ -106,15 +113,15 @@
      }
      .b-col-circle-1 img{
       height: 80px;
+  
     }
 
     .row-i-3 .b-col-2{
       width: 40%;
       height: 500px;
-      margin-left: -10%
+      margin-left: -10%;
+      
     }
-
-     
 
      .row-i-3 .b-col-2{
       left: 55%;
@@ -134,10 +141,12 @@
 
     
     .circle-4{
-      width: 50%;
-      top: -20%;
+      width: 40%;
+      top: -10%;
       left: 2%;
+  
    }
+
    .circle-4 .i-text-img p{
     font-size: 13px;
   
@@ -146,61 +155,75 @@
    .circle-5{
     margin-left: 10%;
     width: 40%;
+    height: 70vmax;
+
    }
 
    .circle-5 .i-text-img p{
     font-size: 14px;
    }
-   .i-text-img p{
-     width: 70%;
-     margin-left: 10%;
-   }
+   
 
    .circle-6{
      width: 250px;
      height: 250px;
-     top: 60%;
-     left: -5%;
+     top: 65%;
+     left: 20%;
    }
 
-
-   .i-text-button{
-    margin-top: 26%;
-
-   }
-   
    .row-i-5{
-    height: 900px;
-  
+      height: 900px;
    }
 
    .row-i-6{
-    height: 110vh;
+      height: 110vh;
    }
-   .row-corpo .item-col p{
-    margin-left: 12%;
 
+   .dicaTexto-1,
+   .dicaTexto-2
+   {
+     margin-top: -80px;
+   }
+
+   .row-corpo .item-col p{
+     margin-left: 12%;
    }
 
    .row-corpo .item-col h1{
-    font-size: 25px;
-    margin-top: 20%; 
-    margin-left: 60px;
+     font-size: 25px;
+     margin-top: 20%; 
+     margin-left: 60px;
+   }
+
+   .item-col form{
+      width: 100%;
+   }
+
+   .row-corpo{
+    width: 80%;
    }
 
    .item-col form .col-item-input{
       display: block;
       width: 100%;
-      margin-left: -15%;
       height: auto;
    }
 
-   .item-col form .col-item-input .respansive-1{
-     margin-top: 18%;
+   .item-col form .col-item-input input{
+     width: 85%;
+
+   }
+  
+   .item-col form .col-item-input select{
+      width: 95%;
+      
+   }
+   .item-col form .col-item-input input[type='email']{
+    width: 85%;
    }
 
-   .item-col form .respansive-2{
-      margin-top: -8%;
+   .item-col form .col-item-input .resposiveTop{
+     margin-top: 14%;
    }
 
   .col-item-input select{
@@ -227,56 +250,63 @@
   } 
 
  .row-i-8{
-  height: 560vh;
+  height: auto;
   }
 
   .row-i-8 .col-i .col-i-blog{
     width: 100%;
+    height: auto;
     display: block;
-  
   }
+
+  .group-1{
+    width: 1000px;
+    height:90vmax;
+    border-radius: 200px;
+    margin-top: 30px;
+    margin: 20px;
+    padding: 10px;
+}
+
+.group-1 .circle-7{
+  height: 30vmax;
+}
+
+.group-1 .circle-7 img{
+  height: 30vmax;
+}
+
+
   .row-i-8 .col-i .col-i-blog .group-1{
-    margin-left: 0;
-    margin-right: 0;
+    width: 40%;
   }
+    .group-1 .text-i-4 h3{
+      font-size: 17px;
+   }
+   .group-1 .text-i-4 p{
+      font-size: 13px;
+    
+   }
 
   .pagination-i a .resposiveDisplay{
     display: none;
+  
   }
   .col-i-end{
     height: auto;
-    left:50px;
     display: block;
   }
 
-  .col-i-end .top{
-    margin-top: -30px;
-  }
-  @keyframes end{
-    0%{
-     left:50px;
-    }
- 
-    50%{
-     left:30px;
-    }
- 
-    100%{
-     left:30px;
-    }
- }
+  
  .col-i-end .grounp-2  .align-p{
   width: 80%;
   text-align: center;
   margin-left: 10%;
- 
 } 
 
 .col-i-social .i-social{
   width: 80%;
   height: 100px;
-  position: absolute;
-  margin-top: 250%;
 }
 
 
@@ -285,17 +315,30 @@
   height: 50px;
   margin: 5px;
 }
-footer{
-   height: 200vh;
-}
-.row-i-10{
-  margin-top: -120%;
-
-}
 
 .row-i-10{
   display: block;
 }
 
+.row-i-10 .col-contact-i .group-input input{
+  width: 310px;
+}
+
+.row-i-10 .col-contact-i .group-input select{
+  width: 330px;
+}
+
+
+}
+
+
+@media (min-width: 1150px) {
+  .group-1 .text-i-4 h3{
+    font-size: 20px;
+ }
+ .group-1 .text-i-4 p{
+    font-size: 18px;
+  
+ }
 }
 
