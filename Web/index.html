@@ -10,6 +10,7 @@
     <!--JS-->
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="asserts//js/code.jquery.com_jquery-3.7.0.min.js"></script>
     <title>Home - Clone ICON </title>
   </head>
    <body>
@@ -46,17 +47,17 @@
         </div>
        <div class="i-col-circle">
         <div class="i-img-1">
-            <div class="circle-1">
+            <div class="circle-1"  id="movimentOne">
                 <img src="asserts/images/image2.jpg"/>
             </div>
         </div>
         <div class="i-img-2">
-            <div class="circle-2">
+            <div class="circle-2" id="movimentTwo">
                 <img src="asserts/images/image-icom.jpg" alt="image-icom.jpg"/>
             </div>
         </div>
         <div class="i-img-3">
-            <div class="circle-3"></div>
+            <div class="circle-3" id="movimentthree"></div>
         </div>
        </div>
     </header>
@@ -138,13 +139,7 @@
              </div>
            </div>
            <div class="row-i-3">
-              <div class="b-col-1">
-                <div class="b-col-1-img">
-                  <a href="#">
-                    <img src="asserts/images/libras.png"/>
-                  </a>
-                   
-                </div>
+              <div class="b-col-1" id="movimentFrame">
                 <div class="b-col-1-text">
                     <h1>1</h1>
                     <p>ICOM é a principal plataforma de
@@ -160,20 +155,33 @@
               </div>
               <div class="b-col-2">
                 <div class="b-col-1-text">
+                  <div class="b-col-1-img">
+                    <a href="#">
+                      <img src="asserts/images/libras.png"/>
+                    </a> 
+                  </div>
                     <h1>2</h1>
                     <p>
                         O ICOM pode ser acessado por QR code ou weblink
                     </p>
+                   <div class="b-col-1-text-2">
+                      <h1>3</h1>
+                      <p> O atendimento é intermediado por
+                         um dos diversos intérpretes de 
+                         Libras disponíveis on-line    
+                      </p>
+                  </div>
+                    
                 </div>
-                <div class="b-col-circle-2">
+                <div class="b-col-circle-2" id="movimentFive">
                   <img src="asserts/images/2-ouvintes.png" alt="ouvintes.png"/>
                 </div>
+                
               </div>
-              <div class="b-col-3">
+              <div class="b-col-3" id="movimëntSix">
                 <div class="b-col-1-text">
                     <h1>3</h1>
-                    <p>
-                        O atendimento é intermediado por
+                    <p> O atendimento é intermediado por
                          um dos diversos intérpretes de 
                          Libras disponíveis on-line    
                     </p>
@@ -231,7 +239,7 @@
                      de brasileiros</p>
                   </div>
                 </div>
-                <div class="circle-5 ">
+                <div class="circle-5" id="movimentSeven">
                   <div class="i-text-img">
                     <div class="i-img">
                       <a href="#">
@@ -317,6 +325,68 @@
               </div>
              </div>
            </div>
+          <div class="row-i-9">
+             <div class="col-grounp-2">
+                 <div class="col-i-2">
+                     <div class="text-i-align">
+                         <div class="text-i-5">
+                             <h1>empresas</h1>
+                             <p>O ICOM é uma ferramenta de responsabilidade social. 
+                              Torne os canais de atendimento da sua empresa mais acessíveis e inclusivos.</p>
+                         </div>
+                     </div>
+                 </div>
+                 <div class="col-i-2">
+                 <div class="circle-i-align">
+                  <div class="circle-8"></div>
+                  <div class="circle-9" id="movimentEight"></div>
+                  <div class="circle-10">
+                    <div class="circle-i" id="movimentNine"></div>
+                  </div>
+                 </div>
+                 </div>
+             </div>
+             <div class="col-grounp-2 marginTop60">
+              <div class="col-i-3">
+               <div class="circle-9"  id="movimentTen"></div>
+               <div class="circle-10">
+                <div class="circle-i-1" id="movimenteleven">
+                  <img src="asserts/images/images-empresa.jpg" alt="images-empresa"/>
+                </div>
+               </div>
+              </div>
+              <div class="col-i-3">
+                <div class="text-i-5">
+                  <div class="i-text-img-2">
+                    <h1>ICOM para empresas</h1>
+                </div>
+                  <p>A <a href="#"><strong>AME</strong></a> desenvolveu o ICOM para que as empresas 
+                    possam oferecer atendimento ao surdo dando um passo
+                     importante na construção da cidadania e da inclusão.</p>
+                     <p>Com o ICOM, plataforma de tradução simultânea de Libras,
+                       a comunicação da empresa com o cidadão surdo ocorre de maneira
+                        ágil e eficiente, gerando mais negócios e construindo uma sociedade mais igualitária.</p>
+                </div>
+              </div>
+             </div>
+             <div class="col-grounp-2 marginTop60" style="height: 200px; display: none;">
+                 <div class="col-carrocel-i-2">
+                 <div class="colunn-i-button-1">
+                    <ion-icon name="chevron-back-outline"></ion-icon>
+                 </div>
+                 <div class="carrocel-i-img">
+                      <img src="asserts/images/logo-tipo//logo-UNIMED-novo-vertical1.png" alt="2"/>
+                      <img  src="asserts/images/logo-tipo/serasa-experian-new-logo-558B163E2C-seeklogo.com.png" alt="3"/>
+                      <img src="asserts/images/logo-tipo/bb-seguros-logo.png" alt="4"/>
+                      <img src="asserts/images/logo-tipo/1200px-Bungie_Logo_-_Official.svg.png" alt="5"/>
+                      <img src="asserts/images/logo-tipo/entu.png" alt="8"/>
+                    </div>
+                    <div class="colunn-i-button-2">
+                       <ion-icon name="chevron-forward-outline"></ion-icon>
+                    </div>
+                 </div>
+             </div>
+          </div>
            <div class="row-i-8">
             <div class="col-i">
               <div class="text-i-3">
@@ -410,7 +480,7 @@
                      </a>
                   </div>
               </div>
-              <div class="col-i-grounp"">
+              <div class="col-i-grounp">
                 <div class="col-i-end">
                   <div class="grounp-2">
                    <div>
@@ -520,5 +590,7 @@
            </footer>
           </div>
         </main>
+        <!--JS-->
+        <script src="asserts/js/scripts.js" ></script>
    </body>
 </html>
