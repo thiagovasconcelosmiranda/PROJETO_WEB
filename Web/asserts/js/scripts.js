@@ -28,7 +28,7 @@ $(window).scroll(function(){
 
     if(verticalPosition >= 1559){
          movimentFrame.style.marginTop="-100px";
-         movimentFive.style.marginTop="-130px";
+         movimentFive.style.marginTop="-160px";
          movimëntSix.style.marginTop="50px";
     }
     if(verticalPosition <= 1559){
@@ -44,13 +44,13 @@ $(window).scroll(function(){
         movimëntSeven.style.marginTop="80px";
     }
 
-    if(verticalPosition >= 4565){
+    if(verticalPosition >= 4665){
        movimentEight.style.marginLeft="20px";
        movimentNine.style.marginLeft="100px";
        movimentTen.style.marginLeft="100px";
        movimenteleven.style.marginLeft="100px";
     }
-    if(verticalPosition <= 4565){
+    if(verticalPosition <= 4665){
         movimentEight.style.marginLeft="50px";
         movimentNine.style.marginLeft="30px";
         movimentTen.style.marginLeft="300px";

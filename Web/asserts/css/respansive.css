@@ -1,11 +1,11 @@
 
 @media screen and (max-width: 900px){
     
-    .navbar{
+    .navbar-i{
       display: none;
     }
-    .header{
-      width: 80%;
+    .header-container{
+      width: 100%;
     }
 
     .option{
@@ -18,12 +18,14 @@
     }
     
     .carousel{
-      width: 100%;
-      left: 50px;
+      width: 95%;
+      left: 5px;
     }
+
     
     .slide .carousel-i{
       width: 100%; 
+      margin-left: 60px;
     }
 
     .row-i{
@@ -34,17 +36,20 @@
       font-size: 22px;
     }
     
+
+    .i-text .í-text-img{
+      margin-top: 10px;
+    }
     .i-text .í-text-img h1{
       font-size: 25px;
-
     }
 
     .align-form form .col-item-input .resposiveTop{
       margin-top: 40px;
     }
-
+  
     .col-img-i img{
-    height: 400px;;
+      height: 400px;
     }
 
     .dicaTexto-1{
@@ -57,8 +62,9 @@
     }
 
     .col-img-i-3{
-      margin-top: 30px;
+      margin-top: 10px;
     }
+
 
     .i-video{
       margin-left: 6%;
@@ -69,9 +75,7 @@
       width: 100%;
       display: block;
     }
-    .i-text{
-    margin-top: 20%;
-    }
+    
     .i-text h1{
       font-size: 1.8em;
     }
@@ -79,18 +83,31 @@
     .i-col{
       margin-top: 100%;
     }
-
+ 
     .i-align{
        display: block;
     }
 
     .row-i-2{
       margin-top: 90%;
-      margin-left:-30px ;
+      margin-left:-60px ;
+    }
+
+    
+    .row-i-2-num{
+       display: block;
     }
     
-    .row{
-       display: block;
+    .row-i-2-num .user{
+      margin-left: 42px;
+     ;
+    }
+
+    .row-i-2-num .col h1{
+       font-size: 2.5em;
+    }
+    .col{
+        margin-left: 25%;
     }
 
     .row-i-3{
@@ -113,21 +130,30 @@
      .b-col-1-text{
        font-size: 12px;
      }
+     .b-col-circle-1 {
+      height: 30vmax;
+     }
 
      .b-col-circle-1 img{
-       height: 80px;
+       height: 30vmax;
      }
     
 
      .row-i-3 .b-col-2{
        width: 40%;
-       height: 80vmax;
+       height: 90vmax;
        left: 49%;
       
      }
 
      .b-col-circle-2{
-      margin-top: -140px;
+      height: 33vmax;
+      margin-top: -170px;
+     }
+
+     .b-col-circle-2 img{
+      height: 33vmax;
+      
      }
 
      .display{
@@ -224,20 +250,21 @@
       width: 100%;
       height: auto;
    }
+  
 
-   .item-col form .col-item-input input{
-     width: 85%;
+   .item-col form .col-item-input .input-i{
+     width: 97%;
+   }
 
+   .item-col form .col-item-input input[type='email']{
+    width: 97%;
    }
   
    .item-col form .col-item-input select{
-      width: 95%;
+      width: 100%;
       
    }
-   .item-col form .col-item-input input[type='email']{
-    width: 85%;
-   }
-
+   
    .item-col form .col-item-input .resposiveTop{
      margin-top: 14%;
    }
@@ -270,13 +297,13 @@
   }
 
   .row-i-8 .col-i .col-i-blog{
-    width: 100%;
     height: auto;
     display: block;
+    margin-top: -10%;
   }
 
-  .group-1{
-    width: 1000px;
+  .col-i-blog .group-1{
+    width: 600px;
     height:90vmax;
     border-radius: 200px;
     margin-top: 30px;
@@ -285,11 +312,11 @@
 }
 
 .group-1 .circle-7{
-  height: 30vmax;
+  height: 25vmax;
 }
 
 .group-1 .circle-7 img{
-  height: 30vmax;
+  height: 25vmax;
 }
 
 
@@ -343,15 +370,13 @@
   display: block;
 }
 
-.row-i-10 .col-contact-i .group-input input{
+.row-i-10 .col-contact-i .group-input .input-i{
   width: 310px;
 }
 
 .row-i-10 .col-contact-i .group-input select{
-  width: 330px;
+  width: 316px;
 }
-
-
 
 }
 
@@ -359,10 +384,10 @@
 @media (min-width: 1150px) {
   .group-1 .text-i-4 h3{
     font-size: 20px;
- }
- .group-1 .text-i-4 p{
+  }
+  .group-1 .text-i-4 p{
     font-size: 18px;
   
- }
+  }
 }
 
