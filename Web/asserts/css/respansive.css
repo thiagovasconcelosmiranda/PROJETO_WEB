@@ -402,11 +402,31 @@
 .row-i-10 .col-contact-i .group-input select{
   width: 316px;
 }
+.row-i-12{
+  width: 100%;
+  display: block;
+}
+.group-3-i form .align-Flex{
+  display: block;
+ 
+}
+
+.group-3-i form .group-input-3 .input-wight{
+  width: 460px;
+}
+
+.group-3-i form .group-input-3 .top{
+  margin-top: 20px;
+}
+  
+.group-button-3{
+  width:80%;
+}
 
 }
 
 
-@media (min-width: 1150px) {
+@media (min-width: 1150px){
   .group-1 .text-i-4 h3{
     font-size: 20px;
   }
@@ -414,5 +434,6 @@
     font-size: 18px;
   
   }
+
 }
 
